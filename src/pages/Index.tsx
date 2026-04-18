@@ -1,5 +1,5 @@
 import profileImg from "@/assets/profile.png";
-import { Share2, MoreVertical, Instagram } from "lucide-react";
+import { Share2, MoreVertical, Instagram, ShieldCheck } from "lucide-react";
 
 const links = [
   {
@@ -44,7 +44,7 @@ const Index = () => {
           />
         </div>
         <h1 className="text-2xl font-bold text-foreground drop-shadow-md">
-          @ninaduartelinks
+          Meus links❤️
         </h1>
         <p className="text-foreground/95 mt-1 mb-8 font-medium drop-shadow">
           O meu melhor lado! 🍑
@@ -74,6 +74,12 @@ const Index = () => {
             </a>
           ))}
         </div>
+      </div>
+
+      {/* Footer */}
+      <div className="mt-12 mb-4 flex items-center gap-2 text-foreground/80 text-sm font-medium drop-shadow">
+        <ShieldCheck className="h-4 w-4" />
+        <span>by.ninaduarte</span>
       </div>
     </div>
   );
