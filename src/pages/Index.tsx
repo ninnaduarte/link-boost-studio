@@ -1,5 +1,5 @@
 import profileImg from "@/assets/profile.png";
-import { Asterisk, Share2, MoreVertical, Instagram } from "lucide-react";
+import { Share2, MoreVertical, Instagram } from "lucide-react";
 
 const links = [
   {
@@ -28,10 +28,7 @@ const Index = () => {
       style={{ background: "var(--gradient-bg)" }}
     >
       {/* Top bar */}
-      <div className="w-full max-w-md flex justify-between items-center mb-8">
-        <button className="h-10 w-10 rounded-full bg-white/15 backdrop-blur-md flex items-center justify-center hover:bg-white/25 transition">
-          <Asterisk className="h-5 w-5 text-foreground" />
-        </button>
+      <div className="w-full max-w-md flex justify-end items-center mb-8">
         <button className="h-10 w-10 rounded-full bg-white/15 backdrop-blur-md flex items-center justify-center hover:bg-white/25 transition">
           <Share2 className="h-4 w-4 text-foreground" />
         </button>
