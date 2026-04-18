@@ -59,6 +59,8 @@ const Index = () => {
             <a
               key={link.label}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative flex items-center justify-between w-full rounded-xl border border-white/70 bg-white/10 backdrop-blur-sm px-4 py-4 hover:bg-white/20 transition-all hover:scale-[1.02]"
             >
               <div className="flex items-center justify-center w-10">
