@@ -68,9 +68,9 @@ const Index = () => {
               <span className="flex-1 text-center font-semibold text-foreground">
                 {link.label}
               </span>
-              <button className="w-10 flex justify-end opacity-70 hover:opacity-100">
+              <div className="w-10 flex justify-end opacity-70">
                 <MoreVertical className="h-5 w-5 text-foreground" />
-              </button>
+              </div>
             </a>
           ))}
         </div>
