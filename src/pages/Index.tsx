@@ -1,15 +1,11 @@
 import profileImg from "@/assets/profile.png";
-import { Asterisk, Share2, MoreVertical } from "lucide-react";
+import { Asterisk, Share2, MoreVertical, Instagram } from "lucide-react";
 
 const links = [
   {
-    label: "Tiktok",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
-        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.1z" />
-      </svg>
-    ),
-    href: "#",
+    label: "Instagram",
+    icon: <Instagram className="h-6 w-6" />,
+    href: "https://www.instagram.com/ninnasduarte?igsh=dzMxcnl2Zzd6NXYz",
   },
   {
     label: "Conteúdo Vip 🌶️ free",
@@ -20,7 +16,7 @@ const links = [
         </svg>
       </div>
     ),
-    href: "#",
+    href: "https://t.me/Nina_Duarte_bot",
     customIcon: true,
   },
 ];
@@ -63,6 +59,8 @@ const Index = () => {
             <a
               key={link.label}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative flex items-center justify-between w-full rounded-xl border border-white/70 bg-white/10 backdrop-blur-sm px-4 py-4 hover:bg-white/20 transition-all hover:scale-[1.02]"
             >
               <div className="flex items-center justify-center w-10">
